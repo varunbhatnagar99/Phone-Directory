@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 class ShowSubscribers extends Component {
     onDeletedClick = (subscriberId) => {
         this.props.deleteSubscriberHandler(subscriberId); 
+        
       }
     render() {
         
